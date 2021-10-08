@@ -1,0 +1,3 @@
+# Vssue 
+
+<Vssue :title="$title" />

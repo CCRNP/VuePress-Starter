@@ -1,0 +1,1 @@
+![Curriculum](/img/FirstSemester-Curriculum.png)
