@@ -3,19 +3,19 @@ const navConf = require('./config/navConf')
 const sidebarConf = require('./config/sidebarConf')
 const pluginsConf = require('./config/pluginConf')
 
-
 module.exports = {
 
   title: 'VuePress-Starter',
   discription: 'CCR VuePress-Starter',
   head: headConf,
 
+  plugins: pluginsConf,
+
   themeConfig: {
+
     lastUpdated: 'Last Updated',
 
     logo: '/assets/img/good.jpg',
-
-    plugins: pluginsConf,
 
     nav: navConf,
 
