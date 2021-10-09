@@ -1,3 +1,4 @@
+const secret = require('./secret')
 module.exports = {
 
   '@vssue/vuepress-plugin-vssue': {
@@ -6,8 +7,8 @@ module.exports = {
     // 其他的 Vssue 配置
     owner: 'CCRNP',
     repo: 'VuePress-Starter',
-    clientId: '42e4cfe8f3827a8ecbee',
-    clientSecret: '5f34acb342d13ad49b2c5413e17478d2280919c2',
+    clientId: secret.clientId,
+    clientSecret: secret.clientSecret,
   },
 
   '@vuepress/last-updated': {
@@ -33,7 +34,7 @@ module.exports = {
   //Google Analytics
   '@vuepress/google-analytics':
   {
-    'ga': 'G-4SKDELT7TV' // UA-00000000-0
+    'ga': secret.ga
   }
 
 }
