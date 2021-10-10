@@ -2,7 +2,7 @@ const secret = require("./secret.js")
 
 module.exports = {
   // vssue 评论功能
-  plugins:[
+  plugins: [
     [
       '@vssue/vuepress-plugin-vssue', {
         // 设置 `platform` 而不是 `api`
@@ -43,6 +43,16 @@ module.exports = {
     [
       '@vuepress/google-analytics', {
         'ga': secret.ga
+      }
+    ],
+    [
+      '@vuepress/medium-zoom', {
+        selector: 'img.zoom-custom-imgs',
+        // medium-zoom options here
+        // See: https://github.com/francoischalifour/medium-zoom#options
+        options: {
+          margin: 16
+        }
       }
     ]
   ]

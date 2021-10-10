@@ -1,7 +1,7 @@
 node_modules
 .temp
-.v
-scode
+.vscode
+.vs
 # 隐藏私密信息
 secret.js
 
