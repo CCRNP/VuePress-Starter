@@ -12,7 +12,7 @@ module.exports = {
         repo: 'VuePress-Starter',
         clientId: secret.clientId,
         clientSecret: secret.clientSecret,
-      }
+      } 
     ],
     // last-updated
     [
@@ -56,5 +56,4 @@ module.exports = {
       }
     ]
   ]
-
 }
