@@ -1,1 +1,3 @@
-![Curriculum](/img/FirstSemester-Curriculum.png)
+## 大三上
+
+![Curriculum](/assets/img/favicon.ico)

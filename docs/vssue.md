@@ -1,5 +1,7 @@
-# Vssue 
+# Vssue
 
-Text plugins
+<!-- <ClientOnly>
+  <Vssue :title="$title" />
+</ClientOnly> -->
 
 <Vssue :title="$title" />

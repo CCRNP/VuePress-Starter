@@ -8,6 +8,10 @@ module.exports = [
     link: '/about'
   },
   {
+    text: '蓝桥杯',
+    link: '/Data Structure/LanQiao/'
+  },
+  {
     text: 'CCR',
     link: 'http://www.ccrnp.com'
   },
@@ -29,11 +33,11 @@ module.exports = [
         text: '大三',
         items: [{
             text: '三上',
-            link: '/GS/Junior/First Semester/'
+            link: '/GS/Junior/First Semester/Curriculum.md'
           },
           {
             text: '三下',
-            link: '/GS/Senior/Second Semester/'
+            link: '/GS/Junior/Second Semester/Curriculum'
           }
         ]
       },

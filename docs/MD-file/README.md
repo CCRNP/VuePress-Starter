@@ -50,3 +50,5 @@ A[方形] -->B(圆角)
 ```
 
 :100:
+
+![img](/assets/img/favicon.ico)
