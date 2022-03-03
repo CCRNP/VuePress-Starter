@@ -30,6 +30,17 @@ module.exports = {
   '/MD-file': [
     '',
   ],
+  '/Data Structure/LanQiao/': [
+    {
+      title: '蓝桥杯省赛 14 天精讲冲刺',
+      path: '/Data Structure/LanQiao/',
+      children: [
+        'DAY 1',
+        'DAY 2',
+      ]
+    }
+
+  ],
   //fallback
   '/': [
     '',
