@@ -11,6 +11,10 @@ module.exports = {
 
   plugins: pluginsConf,
 
+  markdown: {
+    lineNumbers: true//代码显示行号
+  },
+
   themeConfig: {
     
     lastUpdated: 'Last Updated',
@@ -32,6 +36,6 @@ module.exports = {
         text: 'Tag'      // 默认文案 “标签”
       },
       
-    }
+    },
   }
 }

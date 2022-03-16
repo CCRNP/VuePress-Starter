@@ -3,6 +3,7 @@ const secret = require("./secret.js")
 module.exports = {
   // vssue 评论功能
   plugins: [
+     ['@vuepress/back-to-top'],
     [
       '@vssue/vuepress-plugin-vssue', {
         // 设置 `platform` 而不是 `api`
@@ -37,8 +38,7 @@ module.exports = {
     ],
 
     // Back to Top
-    ['@vuepress/back-to-top', true],
-
+    ['@vuepress/back-to-top'],
     //Google Analytics
     [
       '@vuepress/google-analytics', {
