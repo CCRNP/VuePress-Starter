@@ -1,6 +1,6 @@
 ---
 markdown.code.lineNumbers: true
-
+subSidebar: false
 ---
 
 # DAY 1 数据结构基础之链表篇

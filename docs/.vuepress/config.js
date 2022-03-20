@@ -12,11 +12,19 @@ module.exports = {
   plugins: pluginsConf,
 
   markdown: {
-    lineNumbers: true//代码显示行号
+    lineNumbers: true //  代码显示行号
   },
+
+  //  使用 vuepress-theme-reco 主题
+  theme: 'reco',
 
   themeConfig: {
     
+    // 设置主页背景样式 https://vuepress-reco-doc.vercel.app/views/1.x/home.html
+    type: 'blog',
+    // 设置首页右侧信息栏头像
+    authorAvatar: '/assets/img/good.jpg',
+
     lastUpdated: 'Last Updated',
 
     logo: '/assets/img/good.jpg',
@@ -37,5 +45,7 @@ module.exports = {
       },
       
     },
-  }
+  },
+  //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
+  subSidebar: 'auto'
 }

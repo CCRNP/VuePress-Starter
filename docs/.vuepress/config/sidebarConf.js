@@ -54,17 +54,17 @@ module.exports = {
 
   ],
   //fallback
-  '/': [
-    '',
-    'about',
-    {
-      title: 'CSS',
-      path: '/css/',
-      children: [
-        'css/cssa',
-        'css/cssb'
-      ]
-    },
-    '/foo/'
-  ]
+  // '/': [
+  //   '',
+  //   'about',
+  //   {
+  //     title: 'CSS',
+  //     path: '/css/',
+  //     children: [
+  //       'css/cssa',
+  //       'css/cssb'
+  //     ]
+  //   },
+  //   '/foo/'
+  // ]
 }

@@ -4,3 +4,10 @@
   --back-to-top-color: #eeaf7c;
   --back-to-top-color-hover: #71cda3;
 }
+
+.theme-container.custom-page-class {
+  background-image: '/assets/img/sushi.png';
+  /* padding: left;
+  margin-left: 10px;
+  background-color: bisque; */
+}
